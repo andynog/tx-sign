@@ -1,0 +1,11 @@
+[package]
+name = "tx-sign"
+version = "0.1.0"
+authors = ["Andy Nogueira <me@andynogueira.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+stdtx = "0.2.1"
+signatory-secp256k1 = "0.21.0"
